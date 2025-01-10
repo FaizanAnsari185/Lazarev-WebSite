@@ -126,7 +126,7 @@ rightElem.forEach(function(e){
     e.addEventListener("mousemove",function(dets){
         gsap.to(e.childNodes[3],{
             x:dets.x - e.getBoundingClientRect().x-40,
-            y:dets.y - e.getBoundingClientRect().y-120
+            y:dets.y - e.getBoundingClientRect().y-120,
         })
     })
 })
